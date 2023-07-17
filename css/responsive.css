@@ -1,0 +1,52 @@
+/* responsive */
+
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .nav-logo ul {
+        gap: 15px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        margin-right: 0px;
+    }
+    .banner-title{
+        font-size: 1.75rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .banner-container {
+        width: 100%;
+    }
+
+    .banner-content{
+        width: 90%;
+        margin-right: 5%;
+        text-align: center;
+    }
+
+    .banner-img {
+        background-image: url("../images/Circle-design.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 80%;
+    }
+    /* banner section end */
+    
+    .sponsor-container {
+        width: 90%;
+    }
+
+    .sponsor-img-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+}
