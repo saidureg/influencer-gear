@@ -10,7 +10,8 @@
     .nav-logo ul {
         gap: 15px;
     }
-    .banner-container{
+    .banner-container,
+    .featured-container{
         flex-direction: column-reverse;
     }
     .banner-content{
@@ -71,5 +72,25 @@
         margin: 10px 10px;
     }
 
+    /* featured styles stared here  */
+
+    .featured-container{
+        width: 95%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .featured-img{
+        width: 90%;
+    }
+
+    .featured-img img{
+        width: 90%;
+    }
+    
+    .featured-content{
+        width: 90%;
+        margin-bottom: 20px;
+    }
 
 }

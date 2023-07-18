@@ -58,6 +58,7 @@ nav {
 /* nav styles ended here */
 
 .banner-container {
+    /* width: 95vw; */
     width: 1160px;
     margin: 40px auto 30px;
     display: flex;
@@ -106,6 +107,7 @@ nav {
 /* sponsor styles started here */
 
 .sponsor-container {
+    /* width: 95vw; */
     width: 1100px;
     margin: 0 auto;
 }
@@ -125,6 +127,7 @@ nav {
 /* collection styles stared here */
 
 .section-container {
+    /* width: 90vw; */
     width: 1000px;
     margin: 100px auto 50px;
     padding: 15px;
@@ -180,7 +183,7 @@ nav {
     margin-top: 10px;
 }
 
-.fa-solid {
+.fa-star {
     color: #FB8200;
 }
 
@@ -188,4 +191,71 @@ nav {
     color: #FB8200;
 }
 
+.see-more{
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    margin-top: 50px;
+    text-align: right;
+}
+
 /* collection styles stared here  */
+
+/* featured styles started here  */
+
+.featured-container{
+    /* max-width: 95vw; */
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-img{
+    width: 40%;
+}
+
+.featured-content{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.featured-title{
+    color: #0A0826;
+    font-size: 2.37rem;
+    font-weight: 700;
+}
+
+.featured-description{
+    color: #6C6C6C;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.featured-btn{
+    padding: 8px 24px;
+    border: 0;
+}
+
+/* featured styles ended here  */
+
+/* footer styles started here  */
+footer{
+    background-color: #0A0826;
+    color: white;
+}
+
+.footer-content{
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-description span{
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+/* footer styles ended here  */
