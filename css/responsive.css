@@ -49,4 +49,27 @@
         gap: 10px;
     }
 
+    /* collection styles stared here  */
+
+    .section-container {
+        width: 90%;
+        padding: 0;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+    
+    }
+
+    .card {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .cards-container .card img {
+        width: 95%;
+        margin: 10px 10px;
+    }
+
+
 }
